@@ -1,0 +1,8 @@
+{
+  "db": {
+    "password": "",
+    "name": "db",
+    "user": "",
+    "connector": "memory"
+  }
+}

@@ -1,0 +1,109 @@
+{
+    "_meta": {
+        "sources": ["loopback/common/models", "loopback/server/models", "../common/models", "./models","C:/Users/Admin/Documents/NetBeansProjects/nthing/homebrewed/core/models"],
+        "mixins": ["loopback/common/mixins", "loopback/server/mixins", "../common/mixins", "./mixins"]
+    },
+    "User": {
+        "dataSource": "db"
+    },
+    "AccessToken": {
+        "dataSource": "db",
+        "public": false
+    },
+    "ACL": {
+        "dataSource": "db",
+        "public": false
+    },
+    "RoleMapping": {
+        "dataSource": "db",
+        "public": false
+    },
+    "Role": {
+        "dataSource": "db",
+        "public": false
+    },
+    "Drug": {
+        "dataSource": null,
+        "public": true
+    },
+    "Airport": {
+        "dataSource": "db",
+        "public": true
+    },
+    "DrugStrength": {
+        "dataSource": "db",
+        "public": true
+    },
+    "DrugCost": {
+        "dataSource": "db",
+        "public": true
+    },
+    "Action": {
+        "dataSource": "db",
+        "public": true
+    },
+    "DrugPrescriptionStatus": {
+        "dataSource": "db",
+        "public": true
+    },
+    "DrugPregnancyCategory": {
+        "dataSource": "db",
+        "public": true
+    },
+    "DrugClass": {
+        "dataSource": "db",
+        "public": true
+    },
+    "DrugLegalStatus": {
+        "dataSource": "db",
+        "public": true
+    },
+    "ContactPoint": {
+        "dataSource": "db",
+        "public": true
+    },
+    "GeoCoordinates": {
+        "dataSource": "db",
+        "public": true
+    },
+    "AggregateRating": {
+        "dataSource": "db",
+        "public": true
+    },
+    "Thing": {
+        "dataSource": "db",
+        "public": true
+    },
+    "EntryPoint": {
+        "dataSource": "db",
+        "public": true
+    },
+    "DoseSchedule": {
+        "dataSource": "db",
+        "public": true
+    },
+    "AdministrativeArea": {
+        "dataSource": "db",
+        "public": true
+    },
+    "DrugCostCategory": {
+        "dataSource": "db",
+        "public": true
+    },
+    "ActionStatusType": {
+        "dataSource": "db",
+        "public": true
+    },
+    "Language": {
+        "dataSource": "db",
+        "public": true
+    },
+    "ContactPointOption": {
+        "dataSource": "db",
+        "public": true
+    },
+    "Country": {
+        "dataSource": "db",
+        "public": true
+    }
+}
